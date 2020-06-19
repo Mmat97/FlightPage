@@ -1,6 +1,9 @@
+
+
 body {
     border: 3px solid black;
     margin: 0;
+    letter-spacing: 1.5px;
 }
 
 
@@ -14,10 +17,10 @@ h1 {
 padding: 10px 10px 10px 10px;
 	color: #1a2654;
     border-bottom: 3px solid #5cb6f2;
-    text: red;
     font-family: Sans-Serif;
-margin-top: 305px;    
-transform: translate(5%); 
+transform: translate(10%,-1350%); 
+width: 85%;
+ font-size: 38px;
 }
 
 .borderbox{
@@ -33,19 +36,14 @@ transform: translate(5%);
 
 .roundbox {
 	width: 82%; 
-	border: solid 2px #0D2E59;
-	position: absolute;
-  	top: 14%;
-  	left:10%;
-  	height: 57%;
+  	height: 60%;
+  	transform: translate(14%,-50%);
   	border-top-left-radius: 3%;
 	border-top-right-radius: 3%;
 	border-bottom-right-radius: 3%;
 	border-bottom-left-radius: 3%;
 	overflow: hidden;
-	background:#FFFFFF;
-
-  	
+	background:#FFFFFF; 	
 }
 
 
@@ -53,40 +51,19 @@ transform: translate(5%);
 
 .boxshadow 
 {    
-  box-shadow: 3px 3px 5px #535353;
+  box-shadow: 1px 0px 1px 1px #535353;
 }
 
 
 .gridheader
 {    
-    padding: 30px 30px 30px 50px;
+padding: 35px 10px 20px 50px;
     background:  #1a2654 ;
     font-weight: bold;
     color: #F4F6F8;
     font-size: 170%;
-}
-
-
-
-.image1, .image2
-{
-  left: 50%;
-}
-
-.image1
-{
-left: 40%;
-height: 13%;
-  top: 5%;
-
-}
-
-.image2
-{
-left: 50%;
-height: 17%;
-top: 3%;
-
+    font-family: PT Sans;
+    
 }
 
 
@@ -97,12 +74,33 @@ top: 3%;
 
 
 
-.image3
+.shareicon
 {
-left: 8%;
-height: 5%;
-top: 40%;
-position: absolute;
+height: 15%;
+transform: translate(750%,-170%);
+
+}
+
+.downloadicon
+{
+height: 20%;
+transform: translate(570%,-115%);
+
+}
+
+
+
+
+
+
+
+
+
+.airplane
+{
+height: 2%;
+transform: translate(1625%,-3310%);
+
 
 }
 
@@ -110,30 +108,23 @@ position: absolute;
 
 .line {
     border-bottom: 2px solid #b1defa;
-    left: 9.5%;
-    width: 40%;
-    position: absolute;
-    top: 42%;
-
-    
+    width: 34%;
+	transform: translate(56.5%,-24050%); 
 }
 
-.image4
+.pinpointicon
 {
-left: 47.5%;
-height: 7%;
-top: 36%;
-position: absolute;
+height: 4%;
+	transform: translate(2290%,-1780%);
 
 }
 
 
 
 
-h2, .date,.time,.duration,.amenities{
-position: absolute;
+.date,.time,.duration,.amenities{
 font-weight: bold;
-top: 52%;
+font-family: PT Sans;
 
 }
 
@@ -142,30 +133,86 @@ top: 52%;
 
 
 .date{
-left: 4%;
-height: 5%;
+transform: translate(15%,-2320%);
 }
-
-
 
 
 
 .time{
-left: 17%;
-height: 5%;
+transform: translate(30%,-2420%);
 }
 
 
 .duration{
-left: 40%;
-height: 5%;
+transform: translate(45%,-2520%);
+
 }
 
 
 .amenities{
-left: 40%;
-height: 5%;
-top: 73%;
+transform: translate(45%,-2320%);
+
+}
+
+.airlinelogo{
+height: 10%;
+transform: translate(150%,-700%);
+}
+
+
+
+.infoicon{
+height: 2.5%;
+transform: translate(25%,-40%);
+}
+
+
+
+
+h2{
+transform: translate(65%,-500%);
+font-weight: bold;
+    color: #F4F6F8;
+    font-size: 170%;
+    font-family: PT Sans;
+}
+
+
+
+
+.datetext,.timetext,.durationtext,.amenitiestext,.airlinetext{
+color: #c0c0c0;
+
+}
+
+
+.datetext{
+transform: translate(15%,-3320%);
+
+}
+.timetext{
+transform: translate(30%,-3420%);
+
+}
+.durationtext{
+transform: translate(45%,-3520%);
+
+}
+.amenitiestext{
+transform: translate(45%,-3310%);
+
+}
+.airlinetext{
+transform: translate(15%,-3310%);
+
+}
+
+
+
+.line2 {
+    border-left: 2px dashed #c0c0c0;
+    height: 60%;
+	transform: translate(63%,-217%); 
 }
 
 
@@ -176,9 +223,42 @@ top: 73%;
 
 
 
+.ratings {
+    display: inline-block;
+    color: #b1b1b1;
+    transform: translate(310%,-1325%);
+     
+}
+.full-stars {
+    position: absolute;
+    left: 0;
+    top: 0;
+    overflow: hidden;
+    color: #5cb6f2;
+}
+.empty-stars:before, .full-stars:before {
+    content:"\2605\2605\2605\2605\2605";
+    font-size: 40pt;
+}
+.empty-stars:before {
+    -webkit-text-stroke: 1px #1a2654;
+    color: #FFFFFF;
+}
+.full-stars:before {
+    -webkit-text-stroke: 1px #1a2654;
+}
+
+
+.ratingstext{
+
+}
 
 
 
+.pilotailogo {
+height: 13%;
+transform: translate(700%,-1150%);
+}
 
 
 
