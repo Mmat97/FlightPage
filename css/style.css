@@ -1,0 +1,184 @@
+body {
+    border: 3px solid black;
+    margin: 0;
+}
+
+
+#grad1 {
+  height: 44%;
+  background: rgb(179,226,255);
+  background: linear-gradient(90deg, rgba(179,226,255,1) 0%, rgba(200,235,255,1) 44%, rgba(215,242,255,1) 100%);
+}
+
+h1 {
+padding: 10px 10px 10px 10px;
+	color: #1a2654;
+    border-bottom: 3px solid #5cb6f2;
+    text: red;
+    font-family: Sans-Serif;
+margin-top: 305px;    
+transform: translate(5%); 
+}
+
+.borderbox{
+	border-top-left-radius: 4%;
+	border-top-right-radius: 4%;
+	border-bottom-right-radius: 4%;
+	border-bottom-left-radius: 4%;
+
+
+}
+
+
+
+.roundbox {
+	width: 82%; 
+	border: solid 2px #0D2E59;
+	position: absolute;
+  	top: 14%;
+  	left:10%;
+  	height: 57%;
+  	border-top-left-radius: 3%;
+	border-top-right-radius: 3%;
+	border-bottom-right-radius: 3%;
+	border-bottom-left-radius: 3%;
+	overflow: hidden;
+	background:#FFFFFF;
+
+  	
+}
+
+
+
+
+.boxshadow 
+{    
+  box-shadow: 3px 3px 5px #535353;
+}
+
+
+.gridheader
+{    
+    padding: 30px 30px 30px 50px;
+    background:  #1a2654 ;
+    font-weight: bold;
+    color: #F4F6F8;
+    font-size: 170%;
+}
+
+
+
+.image1, .image2
+{
+  left: 50%;
+}
+
+.image1
+{
+left: 40%;
+height: 13%;
+  top: 5%;
+
+}
+
+.image2
+{
+left: 50%;
+height: 17%;
+top: 3%;
+
+}
+
+
+
+
+
+
+
+
+
+.image3
+{
+left: 8%;
+height: 5%;
+top: 40%;
+position: absolute;
+
+}
+
+
+
+.line {
+    border-bottom: 2px solid #b1defa;
+    left: 9.5%;
+    width: 40%;
+    position: absolute;
+    top: 42%;
+
+    
+}
+
+.image4
+{
+left: 47.5%;
+height: 7%;
+top: 36%;
+position: absolute;
+
+}
+
+
+
+
+h2, .date,.time,.duration,.amenities{
+position: absolute;
+font-weight: bold;
+top: 52%;
+
+}
+
+
+
+
+
+.date{
+left: 4%;
+height: 5%;
+}
+
+
+
+
+
+.time{
+left: 17%;
+height: 5%;
+}
+
+
+.duration{
+left: 40%;
+height: 5%;
+}
+
+
+.amenities{
+left: 40%;
+height: 5%;
+top: 73%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
